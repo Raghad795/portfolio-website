@@ -42,3 +42,42 @@ body{
 .info-container button:hover{
     background-color: rgb(79, 188, 242);
 }
+
+.heading{
+    font-size: 40px;
+    color: rgb(54, 157, 209);
+}
+.skills{
+    padding: 20px;
+    height: 250px;
+}
+.container-skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.container-skills .cardSkill{
+    width: 12%;
+    height: 50px;
+    margin: 10px;
+    box-shadow: 2px 5px 5px #cacaca;
+    border-radius: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.blue{
+    background-color: rgb(235, 249, 253);
+}
+.green{
+    background-color: rgb(222, 255, 244);
+}
+.pink{
+    background-color: rgb(251, 241, 243);
+}
+.yellow{
+    background-color: rgb(253, 253, 213);
+}
