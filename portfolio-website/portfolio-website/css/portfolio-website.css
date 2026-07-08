@@ -115,3 +115,10 @@ body{
     border-radius: 9px;
     background-color: rgb(159, 219, 249);
 }
+
+.contact{
+    padding: 20px;
+}
+.contact div{
+    padding: 0 20px;
+}
