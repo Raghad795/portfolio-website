@@ -2,12 +2,12 @@ body{
     margin: 0;
     padding: 0;
 }
+/* Hero */
 .container{
-    height: 500px;
     background-color: rgb(190, 229, 248);
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 50px 20px;
 }
 .info-container{
     padding: 15px;
@@ -28,28 +28,28 @@ body{
     font-style: italic;
     color: rgb(62, 61, 61);
 }
-.info-container button{
+.info-container .btn{
     padding: 10px 50px;
     background-color: rgb(159, 219, 249);
     border: none;
-    font-size: 15px;
+    font-size: 17px;
+    text-decoration: none;
+    color: rgb(62, 61, 61);
     
 }
-.info-container button a{
-    color: rgb(62, 61, 61);
-    text-decoration: none;
-}
-.info-container button:hover{
+.info-container .btn:hover{
     background-color: rgb(79, 188, 242);
 }
 
+/* For all headings */
 .heading{
     font-size: 40px;
     color: rgb(54, 157, 209);
 }
+
+/* skills  */
 .skills{
-    padding: 20px;
-    height: 250px;
+    padding: 50px 20px;
 }
 .container-skills{
     display: flex;
@@ -59,9 +59,8 @@ body{
     justify-content: center;
 }
 .container-skills .cardSkill{
-    width: 12%;
-    height: 50px;
     margin: 10px;
+    padding: 20px;
     box-shadow: 2px 5px 5px #cacaca;
     border-radius: 7%;
     display: flex;
@@ -82,40 +81,43 @@ body{
     background-color: rgb(253, 253, 213);
 }
 
+/* projects */
 .project{
     padding: 20px;
-    height: 600px;
 }
 
 .card-container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     padding: 20px;
 }
 
 .card-container .card{
+    width: 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 250px;
-    height: 400px;
+    justify-content: space-between;
     border-radius: 5%;
-    box-shadow: 5px 5px 5px #cacaca;
+    box-shadow: 5px 3px 3px 1px #cacaca;
+    padding: 20px;
 }
 .card-container .card img{
-    width: 100%;
-    height: 60%;
-    border-radius: 5% 5% 0 0;
+    width:100%;
+    height: 200px;
 }
-.card-container button{
+.card-container button,.btn-git{ 
     padding: 10px;
     border: none;
     border-radius: 9px;
     background-color: rgb(159, 219, 249);
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(62, 61, 61);
 }
 
+/* contact  */
 .contact{
     padding: 20px;
 }
