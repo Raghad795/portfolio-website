@@ -110,13 +110,14 @@ body{
 
 .card-container{
     display: flex;
+    flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
     padding: 20px;
 }
 
 .card-container .card{
-    width: 25%;
+    width: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -125,13 +126,14 @@ body{
     box-shadow: 5px 3px 3px 1px #cacaca;
     padding: 20px;
     margin: 10px;
+    text-align: center;
     transform: 0.3;
 }
 .card-container .card:hover{
     background-color: rgb(251, 241, 243);
 }
 .card-container .card img{
-    width:100%;
+    width:200px;
     height: 200px;
 }
 .card-container button,.btn-git{ 
@@ -175,4 +177,12 @@ body{
 .footer ul li a{
     text-decoration: none;
     color: white;
+}
+
+/* Responsive for mobile devices */
+@media screen and (max-width: 400px) {
+    .navbar ul li{
+        padding-right: 30px;
+        font-size: 13px;
+    }
 }
