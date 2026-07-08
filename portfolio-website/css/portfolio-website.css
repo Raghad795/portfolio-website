@@ -36,8 +36,6 @@ body{
 .info-container{
     padding: 15px;
     background-color: white;
-    justify-content: center;
-    flex-wrap: nowrap;
     padding: 40px;
 }
 
